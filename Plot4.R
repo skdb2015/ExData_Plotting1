@@ -34,7 +34,7 @@ CreatePlot4 <- function()
     ##
     png("figure/plot4.png")
     
-    par(mfrow=c(2,2), mar=c(4,4,2,2), cex=0.5) # add mar parameters if required later
+    par(mfrow=c(2,2), mar=c(4,4,2,2), cex=0.75) # add mar parameters if required later
     
     plot_GlobalActivePower_vs_Time(powerDataWithTimeStamp)
     plot_Voltage_vs_Time(powerDataWithTimeStamp)
