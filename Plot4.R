@@ -33,7 +33,7 @@ CreatePlot4 <- function()
     ##
     ##  set the graphics device and the surface
     ##
-
+    
     png("figure/plot4.png")
     
     ##
@@ -45,12 +45,12 @@ CreatePlot4 <- function()
                            "Global_active_power", 
                            "Global Active Power",
                            "")
-
+    
     plot_PowerData_vs_Time(powerDataWithTimeStamp,
                            "Voltage",
                            "Voltage",
                            "datetime")
-
+    
     plot_PowerData_vs_Time(powerDataWithTimeStamp,
                            c("Sub_metering_1",
                              "Sub_metering_2",
@@ -59,7 +59,7 @@ CreatePlot4 <- function()
                            "",
                            c("black","red","blue"),
                            addLegend = TRUE)
-
+    
     plot_PowerData_vs_Time(powerDataWithTimeStamp,
                            "Global_reactive_power",
                            "Global_reactive_power",
