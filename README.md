@@ -1,3 +1,5 @@
+images are under the "figure" subfolder
+
 ## Introduction
 
 This assignment uses data from
